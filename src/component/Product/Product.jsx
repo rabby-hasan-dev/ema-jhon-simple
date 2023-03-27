@@ -7,6 +7,7 @@ const Product = (props) => {
     // console.log(props.product)
     const { name, img, price, ratings, quantity, seller } = props.product;
    const handleAddToCart=props.handleAddToCart;
+  const clickHandler=props.clickHandler;
     return (
         <div className='product'>
             <img src={img} alt="" />
