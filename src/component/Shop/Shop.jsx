@@ -30,7 +30,7 @@ const Shop = () => {
                 saveCart.push(addedProduct);
 
             }
-            console.log(addedProduct);
+            // console.log(addedProduct);
             // step-5: set the cart
             setCart(saveCart);
 
